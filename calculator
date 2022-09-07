@@ -1,0 +1,20 @@
+#calculator 
+a=int(input(print("Enter the first number:")))
+o=input(print("Select the opertor: + - * / %  "))
+
+b=int(input(print("Enter the second number:")))
+
+if (o=='+'):
+    print(a+b)
+elif(o=='-'):
+    print(a-b)
+elif(o=='*'):
+    print(a*b)
+elif(o=='/'):
+    print(a/b)    
+elif(o=='%'):
+    print(a%b)
+    
+    
+
+
